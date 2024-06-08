@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Wali Muhammad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-29 04:51:42 PM"/>
+        <attribute name="created" value="V2FsaSBNdWhhbW1hZDtERVNLVE9QLUFJVlJSNUI7MjAyMi0wMS0yOTswNDozMDoyNSBQTTszNjA1"/>
+        <attribute name="edited" value="V2FsaSBNdWhhbW1hZDtERVNLVE9QLUFJVlJSNUI7MjAyMi0wMS0yOTswNDo1MTo0MiBQTTsxOzM3MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the value to Calculate the Roots of Quadratic Equation in the form of  (ax^2+bx+c=0)  &quot;" newline="True"/>
+            <output expression="&quot;Enter the value of 'a' :&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter the value of 'b' :&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Enter the value of 'c' :&quot;" newline="True"/>
+            <input variable="c"/>
+            <call expression="Root1(a,b,c)"/>
+            <call expression="Root2(a,b,c)"/>
+            <output expression="&quot;First root is:&quot;" newline="True"/>
+            <output expression="root1(a,b,c)" newline="True"/>
+            <output expression="&quot;Second root is:&quot;" newline="True"/>
+            <output expression="root2(a,b,c)" newline="True"/>
+        </body>
+    </function>
+    <function name="Root1" type="Integer" variable="root">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+            <parameter name="c" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="root" type="Integer" array="False" size=""/>
+            <assign variable="root" expression="(-b+(b^2+4*a*c)^1/2)/(2*a)"/>
+        </body>
+    </function>
+    <function name="Root2" type="Integer" variable="root">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+            <parameter name="c" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="root" type="Integer" array="False" size=""/>
+            <assign variable="root" expression="(-b-(b^2+4*a*c)^1/2)/(2*a)"/>
+        </body>
+    </function>
+</flowgorithm>

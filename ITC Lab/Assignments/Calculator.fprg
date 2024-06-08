@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Wali Muhammad"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-29 04:29:07 PM"/>
+        <attribute name="created" value="V2FsaSBNdWhhbW1hZDtERVNLVE9QLUFJVlJSNUI7MjAyMi0wMS0yOTswMzozNDowNyBQTTszNjA4"/>
+        <attribute name="edited" value="V2FsaSBNdWhhbW1hZDtERVNLVE9QLUFJVlJSNUI7MjAyMi0wMS0yOTswNDoyOTowNyBQTTsxOzM3MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter first number:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Enter second number:&quot;" newline="True"/>
+            <input variable="num2"/>
+            <call expression="Addition(num1,num2)"/>
+            <call expression="Substract(num1,num2)"/>
+            <call expression="Multiply(num1,num2)"/>
+            <call expression="Divide(num1,num2)"/>
+            <call expression="Moduls(num1,num2)"/>
+            <output expression="&quot;Sum is:&quot;" newline="True"/>
+            <output expression="Addition(num1,num2)" newline="True"/>
+            <output expression="&quot;Substract is:&quot;" newline="True"/>
+            <output expression="Substract(num1,num2)" newline="True"/>
+            <output expression="&quot;Multiply is:&quot;" newline="True"/>
+            <output expression="Multiply(num1,num2)" newline="True"/>
+            <output expression="&quot;Division is:&quot;" newline="True"/>
+            <output expression="Divide(num1,num2)" newline="True"/>
+            <output expression="&quot;Moduls is:&quot;" newline="True"/>
+            <output expression="Moduls(num1,num2)" newline="True"/>
+        </body>
+    </function>
+    <function name="Addition" type="Integer" variable="sum">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="a+b"/>
+        </body>
+    </function>
+    <function name="Divide" type="Integer" variable="div">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="div" type="Integer" array="False" size=""/>
+            <assign variable="div" expression="a/b"/>
+        </body>
+    </function>
+    <function name="Moduls" type="Integer" variable="m">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="m" type="Integer" array="False" size=""/>
+            <assign variable="m" expression="a%b"/>
+        </body>
+    </function>
+    <function name="Multiply" type="Integer" variable="mul">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="mul" type="Integer" array="False" size=""/>
+            <assign variable="mul" expression="a*b"/>
+        </body>
+    </function>
+    <function name="Substract" type="Integer" variable="sub">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sub" type="Integer" array="False" size=""/>
+            <assign variable="sub" expression="a-b"/>
+        </body>
+    </function>
+</flowgorithm>
