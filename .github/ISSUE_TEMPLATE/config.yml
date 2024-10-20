@@ -1,0 +1,50 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a Question Privately
+    url: mailto:wali.muhammad.ahmad@gmail.com
+    about: Have a private question? Click here to email me directly.
+issue_template:
+  - name: Material-Related Issue
+    description: For issues related to missing or outdated materials, such as books, notes, or assignments.
+    labels: material
+    title: "Material Issue: "
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **Before submitting, please ensure you:**
+            - Have checked all folders (books, notes, assignments, projects) to confirm the material is missing.
+            - Confirmed that the issue isn't related to your local setup (file download problems, unzipping issues, etc.).
+
+      - type: textarea
+        id: course-name
+        attributes:
+          label: Course Name
+          description: Please specify the name of the course you’re having issues with.
+          placeholder: e.g., Data Structures, Human Computer Interaction,
+        validations:
+          required: true
+
+      - type: textarea
+        id: issue-description
+        attributes:
+          label: Issue Description
+          description: Provide a clear and detailed explanation of the issue.
+          placeholder: Describe what is missing or outdated.
+
+  - name: Course Update Query
+    description: For questions related to changes in course structure, materials, or curriculum updates.
+    labels: course-update
+    title: "Course Update: "
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            **Note:** This repository is for a almost 3-year-old curriculum. Courses may have changed over time. Please provide details about the course changes you're noticing.
+
+      - type: textarea
+        id: current-materials
+        attributes:
+          label: Current Materials
+          description: List any changes you’re seeing in the current course materials.
+          placeholder: Describe what is different in your course version.
