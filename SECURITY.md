@@ -2,20 +2,18 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This repository contains educational resources such as books, notes, presentations, assignments, and projects for the first semester. As this is a static resource repository, there are no security updates for files. However, for any tools or scripts provided within the projects, you can find the supported versions below.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0.x   | :white_check_mark:  |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you believe you’ve found a security vulnerability in any code or tool provided in this repository, please report it by opening an issue. Be sure to include:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- A detailed description of the vulnerability.
+- Steps to reproduce the issue.
+- Any potential fixes you have in mind.
+
+I will review your submission as soon as possible and aim to respond within **7 days**. If accepted, I will work on a fix and notify you when it’s addressed.
