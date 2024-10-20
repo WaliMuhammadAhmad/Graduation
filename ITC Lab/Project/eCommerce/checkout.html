@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce - Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                eCommerce
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="page">
+        <div class="container">
+            <h1>Cart</h1>
+            <div class="show-cart"></div>
+        </div>
+        <div class="container">
+            <div class="checkout">
+                <h1>Enter your credentials</h1>
+                <form class="input" action="#" method="POST">
+                    <table>
+                        <tr>
+                            <td><label for="name">Full Name</label></td>
+                            <td><input type="text" id="name" placeholder="Alan turing" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address1">Shipping address 1</label></td>
+                            <td><input type="text" id="address1" placeholder="Lahore" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address2">Shipping address 2</label></td>
+                            <td><input type="text" id="address2" placeholder="Lahore etc" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="card">Card Number</label></td>
+                            <td><input type="number" id="card" placeholder="0000 0000 0000"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="notes">Shipping notes</label></td>
+                            <td><textarea name="notes" id="notes"></textarea></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Place Order" class="button">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>
