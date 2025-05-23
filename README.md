@@ -1,35 +1,29 @@
-# 1st Semester - Software Engineering (UET New Campus, Session 2021)
+# Graduation - Software Engineering (UET New Campus, Session 2021)
 
-Welcome to my 1st Semesters Repo! 📘✨
+Welcome to my Graduation Repo! 📘✨
 
 **Note:** *The materials provided here are specific to the 1st semester of the Software Engineering program for the session 2021 at UET New Campus. Course content may vary in different semesters or academic sessions.*
 
-## 📚 Courses
+## 📚 Semesters
 
-Explore course-specific folders for here:
+Each Semester has its course-specific folders:
 
-1. **[Applied Physics (AP)](AP/)**
-2. **[Calculus](Calculus/)**
-3. **[Functional English (FE)](FE/)**
-4. **[Introduction to Computing (ITC) Lab](ITC%20Lab/)**
-5. **[Introduction to Computing (ITC)](ITC/)**
-6. **[Programming Fundamentals (PF)](PF/)**
-7. **[Programming Fundamentals (PF) Lab](PF%20Lab/)**
+*This is under work*
 
 **Important Note:** *Introduction to Computing (ITC) is now AICT*
 
 
 ## 📝 Usage
 
-Feel free to utilize these materials for your studies. The textbooks included are sourced from open courses, and their usage should comply with the respective licenses. 
+You can use these materials for your studies. The textbooks included are sourced from open courses, and their usage should comply with the respective licenses. 
 
 ## © Copyright
 
-The lecture notes, presentations, and other original materials created by me in this repository are protected by copyright. All rights reserved.
+The lecture notes, presentations, and other original materials I created in this repository are protected by copyright. All rights reserved.
 
 ## 📬 Contact
 
-For questions, suggestions, or request material feel free to reach out at [wali.muhammad.ahmad@gmail.com].
-Or you can start New Discussion in *Discussion* Tab!
+For questions, suggestions, or requests material feel free to reach out at [wali.muhammad.ahmad@gmail.com].
+Or you can start a New Discussion in the *Discussion* Tab!
 
 Happy studying! 🌟
