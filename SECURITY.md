@@ -1,19 +1,37 @@
-# Security Policy
+# 🔐 Security Policy
 
-## Supported Versions
+## 📅 Supported Versions
 
-This repository contains educational resources such as books, notes, presentations, assignments, and projects for the first semester. As this is a static resource repository, there are no security updates for files. However, for any tools or scripts provided within the projects, you can find the supported versions below.
+This repository is provided **as-is** for educational purposes. No active development or maintenance is expected after graduation. However, issues may still be reviewed if necessary.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark:  |
+| Version | Supported |
+| ------- | --------- |
+| Latest  | ✅        |
+| Older   | ❌        |
 
-## Reporting a Vulnerability
+---
 
-If you believe you’ve found a security vulnerability in any code or tool provided in this repository, please report it by opening an issue. Be sure to include:
+## 📢 Reporting a Security Vulnerability
 
-- A detailed description of the vulnerability.
-- Steps to reproduce the issue.
-- Any potential fixes you have in mind.
+If you discover a potential security issue (e.g., accidentally leaked credentials, sensitive personal data, or exploitable scripts):
 
-I will review your submission as soon as possible and aim to respond within **7 days**. If accepted, I will work on a fix and notify you when it’s addressed.
+- **Do not create a public issue.**
+- Instead, please report privately by emailing: **<wali.muhammad.ahmad@gmail.com>**
+
+I will review and take appropriate action within a reasonable timeframe.
+
+---
+
+## ⚠️ Disclaimer
+
+This repository contains academic material meant for **learning only**.
+
+- No personal user data is collected.
+- No APIs or services are running live.
+- Scripts or projects are intended for **offline/local use only**.
+
+---
+
+## 🙏 Thanks
+
+Thank you for being responsible and helping improve the safety of this public resource.
