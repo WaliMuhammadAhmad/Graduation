@@ -1,0 +1,13 @@
+.bg-pink {
+    background-color: rgb(253, 94, 121);
+}
+
+.text-pink {
+    color: rgb(253, 94, 121);
+}
+
+.border-pink {
+    border: 1px;
+    border-color: rgb(253, 94, 121);
+    border-radius: 5%;
+}

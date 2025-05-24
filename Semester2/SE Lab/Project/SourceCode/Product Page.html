@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/Airbnb Icon pngnn.png">
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .b-rd-50 {
+            border-radius: 50%;
+        }
+
+        .b-2-30 {
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+
+        .bg-pink {
+            background-color: rgb(215, 64, 114);
+        }
+
+        .bg-white {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .bg-grey {
+            background-color: rgb(168, 178, 187);
+        }
+
+        .affix {
+            top: 50px;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            z-index: 777;
+        }
+    </style>
+    <title>Product Page</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-light bg-white">
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-white">
+            <div class="row">
+                <div class="col-md-4">
+
+
+                    <a class="navbar-brand" href="#">
+                        <img src="logo.jpg" width="30" height="27" class="d-inline-block align-center" alt="">
+                        <span class="navbar-brand mb-0 h1">Airbnb</span>
+                    </a>
+                </div>
+
+            </div>
+            <nav class="navbar navbar-light bg-white">
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Anywhere | Any week | Add Guest"
+                        aria-label="Search">
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" >Search</button> -->
+                   <a href="./Search result.html">
+                    <button type="button" class="btn bg-pink text-white">Search</button>
+                </a>
+                </form>
+            </nav>
+        </nav>
+        <div class="row">
+            <a class="navbar-brand" href="/Becomehost.html" style="padding-top:20px">Become a Host</a>
+            <nav class="navbar navbar-light bg-white">
+                <a class="navbar-brand" href="#">
+                    <a href="">
+                        <img src="web.jpg" width="20" height="20" alt="">
+                    </a>
+                </a>
+            </nav>
+            <nav class="navbar navbar-light bg-white">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" style="background-color:white">
+                        <img src="user.png" width="60" height="40" alt="">
+                    </button>
+                    <div class="dropdown-menu " style="width:200px;height:auto">
+                        <button type="button" class="btn btn-outline-dark btn-md" data-toggle="modal" data-target="#SignupModal">
+                            Sign Up
+                        </button>
+                        <br>
+                        <button type="button" class="btn btn-outline-dark btn-md" data-toggle="modal" data-target="#LoginModal">
+                            Login In
+                        </button>
+                        
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </nav>
+
+
+    <!-- start images -->
+    <div class="container ">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- <div class="card-columns">
+                    <div class="card" width="389-rem">
+                      <img class="card-img-top" src="/Pic01Main.webp" alt="Card image cap">
+                    </div> -->
+                <img src="/Pic01Main.webp" class="ml-1" width="565px" height="500px" alt="image not available">
+            </div>
+            <div class="col-md-3">
+                <div class="container">
+                    <div class="row">
+                        <img src="/pic02.webp " width="300px" height="245px" alt="image not available">
+
+                    </div>
+                    <div class="row">
+                        <img src="/pic03.webp" width="300px" height="255px" alt="image not available">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container">
+                    <div class="row">
+                        <img src="/pic06.webp" width="280px" height="245px" alt="image not available">
+
+                    </div>
+                    <div class="row">
+                        <img src="/pic04.webp" width="280px" height="255px" alt="image not available">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end images -->
+
+    <!-- detail and reservation form start  -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8">
+                <br>
+                <div class="conatiner">
+                    <div class="col-4">
+                        <img src="/aircover.webp" height="40" width="200" class="image-fluid" alt="AirCover">
+
+                    </div>
+
+                </div>
+
+
+                <div class="container">
+                    <br>
+                    Every booking includes free protection from Host cancellations, listing inaccuracies, and other
+                    issues like trouble checking in.
+                </div>
+
+
+
+                <hr>
+                <div class="container">
+                    Sumberkima is a seaside village next to Pemuteran close to Menjangan Island, diving and snorkeling
+                    paradise. It has diverse scenery and authentic culture steeped in tradition. Here you can truly
+                    relax away from the bustle of the south. The resort has panoramic views of the hills, the bay of
+                    Sumberkima and the volcanoes of Java. We have two restaurants at the retreat, serving local and
+                    international cuisines. Our reception team can organise all your excursions, yoga sessions and spa
+                    treatments.
+                    <br>
+                    <br>
+                    <!-- Button trigger modal -->
+                    <a data-toggle="modal" data-target="ShowMore">
+                        <strong>
+                            <u>
+                                Show More ></u>
+                        </strong>
+                    </a>
+                </div>
+                <br>
+                <hr>
+                <br>
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            Small and cozy lakeside cottage overlooking the beautiful Ljósufjöll and Drápuhlíð mountain.
+                            Located in
+                            a birchwood forest only 10km from Stykkishólmur. Perfect location to explore the Snæfellsnes
+                            peninsula &
+                            Breiðafjörður bay!
+                            <br>
+                            During the winter time the road might only be accessible for 4x4 vehicles!
+                            <br>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+
+
+                <!-- stsrt what this place offers -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <br>
+                            <h4>What this place offers</h4>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <br>
+                            <i class="fa fa-car"></i> Car Parking<br>
+                            <i class="fa fa-wifi"></i> Free Wifi <br>
+                            <i class="fa fa-cloud"></i> Awesome Weather and view
+
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <hr>
+
+                <!-- where you will live start -->
+                <div class="container">
+                    <br>
+                    <strong>
+                        <h4>Where you'll sleep</h4>
+                    </strong>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="/Bedroom(hotel page).webp" class="rounded" height="300px" alt="Bedroom Picture">
+                        </div>
+
+                    </div>
+                    <br>
+                    <strong>
+                        Bedroom
+                    </strong>
+                    <br>
+                    1 double bed
+                    <br>
+                    <br>
+                </div>
+
+                <!-- end where you will live  -->
+
+
+
+
+            </div>
+
+
+
+            <!-- Right side reservation Form -->
+            <div class="col-md-4 justify-content-center">
+                <div class="sticky-top ">
+                    <br>
+                    <br>
+                    <div class="justify-content-center">
+
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <strong>$195</strong>night
+
+                                    </div>
+                                    <div class="col-7 text-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                            <path
+                                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                        </svg> <strong>4.2 - 96 reviews</strong>
+                                    </div>
+                                </div>
+                                <br>
+
+
+                                <div class="row">
+                                    <div class="form-group justify-content-center">
+
+
+                                        <div class="form-group">
+                                            <input class="form-control input-sm" id="inputsm" value="Check-In"
+                                                type="date">
+                                            <input class="form-control input-sm" id="inputsm" value="Check-Out"
+                                                type="date">
+
+                                            <label for="inputsm">Guests</label>
+                                            <input class="form-control input-sm" id="inputsm" value="Guests:1"
+                                                type="number">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br>
+                                <div class="row justify-content-center">
+                                    <a href="/Confirm and pay.html" class="btn btn-block text-light bg-pink">Reserve</a>
+                                </div>
+                                <br>
+                                <div class="row justify-content-center">
+                                    <p>
+                                        You won't be charged yet
+                                    </p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        $195 x 5 nights
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        $976
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        Cleaning Fee
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        $34
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        Service Fee
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        $150
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-7">
+                                        <strong>Total before taxes</strong>
+                                    </div>
+                                    <div class="col-5 text-right">
+                                        $1160
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- right side reservation form end -->
+
+
+        </div>
+
+    </div>
+    <!-- detail and reservation form end  -->
+
+
+    <!-- map start -->
+    <div class="container">
+        <hr>
+        <div class="row">
+
+
+            <iframe width="1100px" height="400px" src="http://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed">
+            </iframe>
+        </div>
+
+    </div>
+    <!-- Map End  -->
+
+
+    <!-- Things To Know Start  -->
+    <br>
+    <div class="container">
+        <hr>
+        <h4>Things to know</h4>
+        <br>
+        <div class="row">
+
+            <div class="col-4">
+                <h6>
+                    House Rules
+                </h6>
+                <br>
+                &#x1F551; Check-in: After 3:00 PM
+                <br>
+                &#x1F551; Check-out: 12:00 PM
+                <br>
+                &#128685; No Smoking
+
+            </div>
+            <div class="col-4">
+                <h6>
+                    Health & Safety
+                </h6>
+                <!-- &#xf7b9; Airbnb's COVID-19 safety practices apply -->
+                <br>
+                <i class="fa fa-question-circle"></i> Carbon monoxide alarm not reported
+                <br>
+                <i class="fa fa-question-circle"></i> Smoke alarm not reported
+
+            </div>
+            <div class="col-4">
+                <h6>
+                    Cancellation Policy
+                </h6>
+                <br>
+                Add your trip dates to get the cancellation details for this stay.
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Things To Know End  -->
+
+
+
+    <br>
+
+    <div class="container-fluid bg-grey">
+        <hr>
+        <!-- start explore other options in and around Permutan -->
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <h6>Explore other options in and around Permutan</h6>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-3">
+                    Seminyak Beach
+                    <br><br>
+                    Bingin Beach
+                    <br><br>
+                    Gili Islands
+                    <br><br>
+
+
+                </div>
+                <div class="col-sm-3">
+                    Denpasar
+                    <br><br>
+                    Gili Trawangan
+                    <br><br>
+                    Kuta Beach
+                    <br><br>
+                </div>
+                <div class="col-sm-3">
+                    Sanur
+                    <br><br>
+                    Nusa Dua Beach
+                    <br><br>
+                    Canggu Beach
+                    <br><br>
+                </div>
+                <div class="col-sm-3">
+                    Penida Island
+                    <br><br>
+                    Nusa Lembongan
+                    <br><br>
+                    Ubud
+                    <br><br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    Airbnb > Indonesia > Bali > Buleleng Regency > Gerokgak
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <!-- end explore other options in and around Permutan -->
+
+        <hr>
+
+        <!-- start support/community/hosting/about -->
+        <div class="container">
+            <div class="row ">
+                <br>
+                <br>
+                <br>
+
+                <div class="col-sm-3">
+                    <h6>
+                        Support
+                    </h6>
+                    <br>
+                    Help Center
+                    <br><br>
+                    AirCover
+                    <br><br>
+                    Safety information
+                    <br><br>
+                    Supporting people with disabilities
+                    <br><br>
+                    Cancellation options
+                    <br><br>
+                    Our COVID-19 Response
+                    <br><br>
+                    Report a neighborhood concern
+                    <br><br>
+
+                </div>
+                <div class="col-sm-3">
+                    <h6>
+                        Community
+                    </h6>
+                    <br>
+                    Airbnb.org: disaster relief housing
+                    <br><br>
+                    Support Afghan refugees
+                    <br><br>
+                    Combating discrimination
+                    <br><br>
+
+                </div>
+                <div class="col-sm-3">
+                    <h6>
+                        Hosting
+                    </h6>
+                    <br>
+                    Try hosting
+                    <br><br>
+                    AirCover for Hosts
+                    <br><br>
+                    Explore hosting resources
+                    <br><br>
+                    Visit our community forum
+                    <br><br>
+                    How to host responsibly
+                    <br><br>
+                </div>
+                <div class="col-sm-3">
+                    <h6>
+                        About
+                    </h6>
+                    <br>
+                    Newsroom
+                    <br><br>
+                    Learn about new features
+                    <br><br>
+                    Letter from our founders
+                    <br><br>
+                    Careers
+                    <br><br>
+                    Investors
+                    <br><br>
+
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2022 Airbnb,Inc. Privacy Term Sitemap
+                    <br>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <h6>
+                        <i class="fa fa-globe"></i> &nbsp English (US) $ USD <a href="#" class="fa fa-facebook"></a> <a
+                            href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-instagram"></a>
+                    </h6>
+                    <br>
+                </div>
+                <br>
+            </div>
+        </div>
+        <!-- end support/community/hosting/about -->
+
+
+
+        <!-- Start Show More Modal -->
+        <div class="modal fade" id="ShowMore" tabindex="-1" role="dialog" aria-labelledby="ShowMoreModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title justify-content-center" id="ShowMoreModalLabel">Login/Sign Up</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group m-3">
+                                <label>First Name*</label>
+                                <input type="text" name="" placeholder="ABC" class="form-control">
+                            </div>
+
+                            <div class="form-group m-3">
+                                <label>Last Name*</label>
+                                <input type="text" name="" placeholder="XYZ" class="form-control">
+                            </div>
+
+
+                            <div class="form-group m-3">
+                                <label>Date Of Birth*</label>
+                                <input type="date" name="" placeholder="11/02/2018" class="form-control">
+                            </div>
+                            <div class="form-group m-3">
+                                <label>Email*</label>
+                                <input type="email" name="" class="form-control" placeholder="username@gmail.com">
+                            </div>
+                            <div class="d-flex justify-content-center m-2">
+                                <a href="Home Page.html" class="btn bg-pink text-light">Sign Up</a>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Show More Modal  -->
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!--Sign Up  Modal -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="SignupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title justify-content-center" id="SignupModalLabel">Finish Signing Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group m-3">
+                            <label>First Name*</label>
+                            <input type="text" name="" placeholder="ABC" class="form-control">
+                        </div>
+
+                        <div class="form-group m-3">
+                            <label>Last Name*</label>
+                            <input type="text" name="" placeholder="XYZ" class="form-control">
+                        </div>
+
+
+                        <div class="form-group m-3">
+                            <label>Date Of Birth*</label>
+                            <input type="date" name="" placeholder="11/02/2018" class="form-control">
+                        </div>
+                        <div class="form-group m-3">
+                            <label>Email*</label>
+                            <input type="email" name="" class="form-control" placeholder="username@gmail.com">
+                        </div>
+                        <div class="d-flex justify-content-center m-2">
+                            <a href="Home Page.html" class="btn bg-pink text-light">Sign Up</a>
+                        </div>
+                    </form>
+                    <!-- <form>
+                        <div class="form-group" class="container">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:   </label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Sign Up Modal  -->
+
+
+    <!--Login in  Modal -->
+    
+    <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title justify-content-center" id="LoginModalLabel">Login/Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">First Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ABC">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Last Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="XYZ">
+            </div>
+                        <div class="form-group">
+              <label for="formGroupExampleInput2">Phone No</label>
+              <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="03000000000">
+            </div>
+            <div class="d-flex justify-content-center m-2">
+              <a href="Home Page.html" class="btn bg-pink text-light">Agree and Continue</a>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- End Login Up  Modal -->
+
+</body>
+
+</html>

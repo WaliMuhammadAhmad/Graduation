@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" type="image/x-icon" href="/Airbnb Icon pngnn.png">
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .b-rd-50 {
+            border-radius: 50%;
+        }
+
+        .b-2-30 {
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+
+        .affix {
+            top: 50px;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            z-index: 777;
+        }
+
+        .bg-pink {
+            background-color: rgb(212, 74, 97);
+        }
+    </style>
+    <title>Confirm and Pay</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="/Product Page.html"><img src="/Back.jpg" height="40px" width="50px" alt=""></a>
+
+            </div>
+            <div class="col-sm-9">
+                <h4>Request to book</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+
+                <div class="row">
+                    <br>
+                    <div class="col-sm-12">
+                        <br>
+                        <br>
+                        <h4>
+                            Your Trip
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <br>
+                        <strong>Dates</strong>
+                        <br>
+                        July 25 - 30
+                    </div>
+                    <div class="col-sm-3">
+                        <br>
+                        <br>
+                        <strong>
+                            <u>Edit</u>
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <br>
+                        <strong>Guests</strong>
+                        <br>
+                        1 Guest
+                    </div>
+                    <div class="col-sm-3">
+                        <br>
+                        <br>
+                        <strong>
+                            <u>Edit</u>
+                        </strong>
+                    </div>
+                </div>
+                <br>
+                <hr>
+
+                <div class="row">
+                    <br>
+                    <div class="col-sm-12">
+                        <br>
+                        <h4>
+                            Pay With
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Card No</label>
+                                <input style="height: 50px;" type="number" class="form-control"
+                                    id="exampleInputPassword1" placeholder="0000 0000 0000 0000">
+                                <input style="height: 50px;" type="text" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Expiration">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <br>
+                    <div class="col-sm-12">
+                        <br>
+                        <h6>
+                            Billing Address
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <form>
+                            <div class="form-group ">
+                                <input style="height: 50px;" type="text" class="form-control rounded-top "
+                                    id="exampleInputPassword1" placeholder="Street Address">
+                                <input type="text" style="height: 50px;" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Apt or suite number">
+                                <input type="text" style="height: 50px;" class="form-control" id="exampleInputPassword1"
+                                    placeholder="City">
+                                <input type="text" style="height: 50px;" class="form-control" id="exampleInputPassword1"
+                                    placeholder="State" value="iih">
+                                <input type="text" style="height: 50px;" class="form-control rounded-bottom "
+                                    id="exampleInputPassword1" placeholder="ZIP code">
+                            </div>
+                        </form>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">
+                                <h6>Country</h6>
+                            </label>
+                            <select style="height: 50px;" class="form-control" id="exampleFormControlSelect1">
+                                <option selected>Pakistan</option>
+                                <option>Oman</option>
+                                <option>India</option>
+                                <option>Canada</option>
+                                <option>South Asia</option>
+                                <option>Norway </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+                <h4>
+                    Cancellation Policy
+                </h4>
+                <br>
+                <strong>Free cancellation before 2:00 PM on Jun 25.</strong> After that, cancel before 2:00 PM on Jul 18
+                and get a 50% refund, minus the service fee.
+                <br>
+                <br>
+                Our Extenuating Circumstances policy does not cover travel disruptions caused by COVID-19.
+
+
+                <hr>
+
+                <!-- Button -->
+                <button type="submit" class="btn bg-pink text-light" onclick="window.location.href='success.html';">Request to book</button>
+                <br>
+                <br>
+                <br>
+
+            </div>
+
+            <!-- start side bill  -->
+            <div class="col-md-5 justify-content-center">
+                <div class="sticky-top ">
+                    <br>
+                    <br>
+                    <div class="justify-content-center">
+
+                        <div class="card shadow" style="width: 30rem;">
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-sm-4 rounded">
+                                        <img src="/Pic01Main.webp" alt="Image" height="85px" width="85px">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="row">
+                                            <small class="faded">Entire Home</small>
+                                            <div class="text-dark" style="font-family: Times New Roman, Times, serif;">
+                                                Swim Under a Private Waterfall at Tranquil Forest Haven
+                                            </div>
+                                            <small><strong>&#9733; 4.9</strong> (219 reviews) </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-12">
+
+                                        Your booking is protected by &nbsp <img src="/aircover.webp" height="20px "
+                                            width="70px" alt="Air Cover">
+                                    </div>
+                                </div>
+                                <hr>
+                                <h5>
+                                    Price Details
+                                </h5>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <u>
+
+                                            $147.93 x 5 nights
+                                        </u>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        $739.63
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <u>
+                                            Cleaning Fee
+                                        </u>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        $81.95
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <u>
+                                            Service Fee
+                                        </u>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        $115.99
+                                    </div>
+                                    <br>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <strong>Total(<u>USD</u>)</strong>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <strong>$115.99 </strong>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- end side bill  -->
+
+
+        </div>
+    </div>
+</body>
+
+</html>

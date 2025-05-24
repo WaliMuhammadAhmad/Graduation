@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Airbnb Icon pngnn.png">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .b-rd-50 {
+            border-radius: 50%;
+        }
+
+        .b-2-30 {
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+
+        .affix {
+            top: 50px;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            z-index: 777;
+        }
+
+        .bg-pink {
+            background-color: rgb(215, 64, 114);
+        }
+    </style>
+    <title>Search Result</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+
+        <!-- Navbar Code  -->
+        <!-- Navbar    -->
+
+        <nav class="navbar sticky-top navbar-light bg-white">
+            <!-- Image and text -->
+            <nav class="navbar navbar-light bg-white">
+                <div class="row">
+                    <div class="col-md-4">
+
+
+                        <a class="navbar-brand" href="#">
+                            <img src="logo.jpg" width="30" height="27" class="d-inline-block align-center" alt="">
+                            <span class="navbar-brand mb-0 h1">Airbnb</span>
+                        </a>
+                    </div>
+
+                </div>
+                <nav class="navbar navbar-light bg-white">
+
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Anywhere | Any week | Add Guest"
+                            aria-label="Search">
+                        <!-- <button class="btn btn-outline-success my-2 my-sm-0" >Search</button> -->
+                        <a href="./Search result.html">
+                            <button type="button" class="btn bg-pink text-white">Search</button>
+                        </a>
+                    </form>
+                </nav>
+            </nav>
+            <div class="row">
+                <a class="navbar-brand" href="/Becomehost.html" style="padding-top:20px">Become a Host</a>
+                <nav class="navbar navbar-light bg-white">
+                    <a class="navbar-brand" href="#">
+                        <a href="">
+                            <img src="web.jpg" width="20" height="20" alt="">
+                        </a>
+                    </a>
+                </nav>
+                <nav class="navbar navbar-light bg-white">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown"
+                            style="background-color:white">
+                            <img src="user.png" width="60" height="40" alt="">
+                        </button>
+                        <div class="dropdown-menu " style="width:200px;height:auto">
+                            <button type="button" class="btn btn-outline-dark btn-md" data-toggle="modal"
+                                data-target="#SignupModal">
+                                Sign Up
+                            </button>
+                            <br>
+                            <button type="button" class="btn btn-outline-dark btn-md" data-toggle="modal"
+                                data-target="#LoginModal">
+                                Login In
+                            </button>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </nav>
+
+        <br>
+
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">
+                    <img src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg" width="25px"
+                        height="30px"><br>Design
+                </a>
+                <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg" width="25px"
+                        height="30px"><br>Artic
+                </a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/52c8d856-33d0-445a-a040-a162374de100.jpg" width="25px"
+                        height="30px"><br>Shared homes
+                </a>
+                <a class="nav-link" id="nav-contact-tab-1" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact-1" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="25px"
+                        height="30px"><br>OMG!
+                </a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg" width="25px"
+                        height="30px"><br>National Parks
+                </a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg" width="25px"
+                        height="30px"><br>Bed & Breakfast
+                </a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" width="25px"
+                        height="30px"><br>Treehouses
+                </a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg" width="25px"
+                        height="30px"><br>Camping
+                </a>
+                <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">
+                    <img src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg" width="25px"
+                        height="30px"><br>Tiny homes
+                </a>
+            </div>
+        </nav>
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+
+                <br>
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol><a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/monet/Luxury-553449454187790697/original/68f555be-f574-41c7-a564-aaf1322e56f7?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/monet/Luxury-553449454187790697/original/02cf8e39-4b71-49f8-bd8a-ff512d815dcd?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/monet/Luxury-553449454187790697/original/eea58b21-db0d-4c21-91c6-2d272bd6be44?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/monet/Luxury-553449454187790697/original/9a128464-b7d0-4a53-b163-dff93a8224da?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button"
+                                    data-target="#carouselExampleIndicators" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-target="#carouselExampleIndicators" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Lombardia, Italy</h5>
+                                <p class="card-text">Designed by David Chipperfield <br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$8,981 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card2" data-slide-to="1"></li>
+                                    <li data-target="#card2" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/df54098d-427a-4dd9-b836-ca3943ea0ee1.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/e95b134f-5ab8-4620-a554-3f57f27f3d2b.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/1e62076a-8e3d-4aac-a9c3-358161e4eeb8.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/74739385-347b-459f-9a76-2cd371eebdc1.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card2"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card2 "
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Shanghai, China</h5>
+                                <p class="card-text">Old house fragrance, Jing 'an Temple across the vintage estate,
+                                    smell the soul of
+                                    Lady<br>
+                                    Jun 1 – 6 <br>
+                                <p class="font-weight-bold">$206 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card3" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card3" data-slide-to="1"></li>
+                                    <li data-target="#card3" data-slide-to="2"></li>
+                                </ol><a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/aaddce0a-9b2f-4583-bc20-4dfc089229cf.jpg?im_w=1200"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/c9129c0e-f4a9-4eae-a709-a7ba5d64062e.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/636a864e-c06f-405e-b5e2-86cadda3785f.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/2f6a2588-e9a7-4a89-87d5-fbb2ac58e412.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card3"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card3"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Kecamatan Ubud, Indonesia</h5>
+                                <p class="card-text">Entire villa hosted by Chris<br>
+                                    Sep 27 – Oct 2 <br>
+                                <p class="font-weight-bold">$491 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card4" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card4" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card4" data-slide-to="1"></li>
+                                    <li data-target="#card4" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/71859ab5-663d-4ae9-8e8d-5677e4bb1661.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/9570f02f-b865-49b5-91d8-ebf5ee5465c2.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/ad429202-910a-400b-9538-4bf3af96378c.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/e066bb94-65aa-4840-ba02-7d2c72be2edf.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card4"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card4"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Paraty, Brazil</h5>
+                                <p class="card-text">Entire home hosted by Marko <br>
+                                    Oct 3 – 8 <br>
+                                <p class="font-weight-bold">$167 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card9" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card9" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card9" data-slide-to="1"></li>
+                                    <li data-target="#card9" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/7ca6118f-68c7-4a32-8bbc-09ce1840a373.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/65387fcc-3f70-4bef-9e2b-6cc902d2594a.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/6fa20b85-d4de-46e2-af3f-7081796013e9.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/38b888d2-7f65-4eef-b676-5ba566e62f6c.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card9"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card9"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Lagos, Portugal</h5>
+                                <p class="card-text">Luxury stay in Lagos, Canavial, Portugal<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$2,275 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card1" data-slide-to="1"></li>
+                                    <li data-target="#card1" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-41015249/original/e7fa7844-7c1f-43e3-857b-d660273fcc05.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/6f1581f6-44cb-4f35-bab3-b973a0633f5c.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/6f1581f6-44cb-4f35-bab3-b973a0633f5c.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-41015249/original/3af4c17f-32e3-479a-864e-4c187840e10c.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card1"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card1"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pemuteran, Indonesia</h5>
+                                <p class="card-text">Entire villa hosted by Jane<br>
+                                    Jun 8 – 13 <br>
+                                <p class="font-weight-bold">$147 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card10" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card10" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card10" data-slide-to="1"></li>
+                                    <li data-target="#card10" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-9211435/original/f3701494-e514-4bc7-92d9-25e21b57dbfe.jpeg?im_w=1200"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-9211435/original/f8867c16-8c59-4432-8361-1e417d610cd9.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-9211435/original/019bca58-684f-4be8-a9d1-967c82cce73e.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-9211435/original/544ef703-7834-43d7-95d6-af2f2d1aa21f.jpeg?im_w=1200"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card10"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card10"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Mirissa, Sri Lanka</h5>
+                                <p class="card-text">Entire villa hosted by Serendipity Collection<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$600 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card11" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card11" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card11" data-slide-to="1"></li>
+                                    <li data-target="#card11" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-28765303/original/b86e5fa1-bd03-47fc-a98c-d86a4270782d.jpeg?im_w=1200"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-28765303/original/5bd18df6-6013-47ee-afee-632e496c4464.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-28765303/original/86ad51d4-af47-4af0-9cb3-177914f6441e.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-28765303/original/e0eac00d-b63f-466a-8942-57e7428cc4d7.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card11"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card11"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Hepburn Springs, Australia</h5>
+                                <p class="card-text">Entire home hosted by Dayget<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$331 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card13" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card13" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card13" data-slide-to="1"></li>
+                                    <li data-target="#card13" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/97303017-f38a-4ae5-9b64-8306d42e4462.jpg?im_w=1200"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/4cb35547-92d0-48a6-a927-ab14277bcf45.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/1bf2059b-8dc2-4f75-9e13-e7244511432b.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/1bf2059b-8dc2-4f75-9e13-e7244511432b.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card13"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card13"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Hepburn Springs, Austra</h5>
+                                <p class="card-text">Entire villa hosted by David<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$422 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card12" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card12" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card12" data-slide-to="1"></li>
+                                    <li data-target="#card12" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/201a00f9-0c23-4e75-9115-4ce1ceed05f6.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/009f1d32-cb3f-4f19-ab79-76c95cfdf979.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/009f1d32-cb3f-4f19-ab79-76c95cfdf979.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/04355deb-8003-47c5-8ef8-1ebca56d7720.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card12"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card12"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Thalang, Thailand</h5>
+                                <p class="card-text">Luxury stay in Thalang, Phuket, Thailand<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$3,150 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card14" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card14" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card14" data-slide-to="1"></li>
+                                    <li data-target="#card14" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-23863755/original/2ce81508-1182-4fdf-87b9-382867a48815.jpeg?im_w=1200"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-23863755/original/8d057fa4-d49b-44f8-8977-242ecad07ab6.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-23863755/original/d6d885f5-09b0-476e-a3d2-035838cd7dee.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-23863755/original/4c7dc88c-12ed-4e8c-af91-9d086ed7a093.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card14"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card14"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Yallingup, Australia</h5>
+                                <p class="card-text">Entire home hosted by Exclusiveescapes<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$256 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card15" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card15" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card15" data-slide-to="1"></li>
+                                    <li data-target="#card15" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/f2133b89-b041-49a3-99bc-20b595dcfa62.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/b82c56ac-a349-4005-8e49-fb70797795d3.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/83fcdb83-4ac6-437c-af82-fa5e03f33a14.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/141af94e-e58e-4eb7-a401-eb3b22f63ce6.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card15"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card15"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tambon Thep Krasatti, Thailand</h5>
+                                <p class="card-text">Luxury stay in Tambon Thep Krasatti, Chang Wat Phuket, Thailand<br>
+                                    May 21 – 26 <br>
+                                <p class="font-weight-bold">$15,000 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card6" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card6" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card6" data-slide-to="1"></li>
+                                    <li data-target="#card6" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/f374a7c1-5c69-454f-beab-9de5c6d31ee7.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/2d7125a0-79ca-44ba-8ba5-d8b98a41092f.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/4576e133-fb6f-4cdc-8f59-c610643b7811.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/62187b83-7654-4c62-bde4-87cbe76ea757.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card6"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card6"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Korčula, Croatia</h5>
+                                <p class="card-text">Luxury stay in Korčula, Split Riviera, Croatia<br>
+                                    Oct 8 – 15 <br>
+                                <p class="font-weight-bold">$2,217 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card" style="width: 20rem;">
+                            <div id="card7" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#card7" data-slide-to="0" class="active"></li>
+                                    <li data-target="#card7" data-slide-to="1"></li>
+                                    <li data-target="#card7" data-slide-to="2"></li>
+                                </ol>
+                                <a href="/Product Page.html">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="https://a0.muscache.com/im/pictures/a9a5e884-0ce4-442d-9348-a5bd130e8811.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/dbcfbdd5-501f-4c74-b966-12b815e0b173.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-29642943/original/a4d10bd9-07af-4473-a17f-7ba8ffe16efd.jpeg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://a0.muscache.com/im/pictures/9e064c76-6a5a-49e7-8bb0-cbe7c7bad287.jpg?im_w=720"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </a>
+                                <button class="carousel-control-prev" type="button" data-target="#card7"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#card7"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Wensleydale, Australia</h5>
+                                <p class="card-text">Entire villa hosted by Fran<br>
+                                    Jul 12 – 17 <br>
+                                <p class="font-weight-bold">$694 night</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-6  ">
+
+
+                <div class="sticky-top">
+
+
+                    <iframe height="600px" width="700px"
+                        src="http://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!--Sign Up  Modal -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="SignupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title justify-content-center" id="SignupModalLabel">Finish Signing Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group m-3">
+                            <label>First Name*</label>
+                            <input type="text" name="" placeholder="ABC" class="form-control">
+                        </div>
+
+                        <div class="form-group m-3">
+                            <label>Last Name*</label>
+                            <input type="text" name="" placeholder="XYZ" class="form-control">
+                        </div>
+
+
+                        <div class="form-group m-3">
+                            <label>Date Of Birth*</label>
+                            <input type="date" name="" placeholder="11/02/2018" class="form-control">
+                        </div>
+                        <div class="form-group m-3">
+                            <label>Email*</label>
+                            <input type="email" name="" class="form-control" placeholder="username@gmail.com">
+                        </div>
+                        <div class="d-flex justify-content-center m-2">
+                            <a href="Home Page.html" class="btn bg-pink text-light">Sign Up</a>
+                        </div>
+                    </form>
+                    <!-- <form>
+                        <div class="form-group" class="container">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:   </label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Sign Up Modal  -->
+
+    <!--Login in  Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title justify-content-center" id="LoginModalLabel">Login/Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">First Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ABC">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Last Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="XYZ">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Phone No</label>
+                            <input type="number" class="form-control" id="formGroupExampleInput2"
+                                placeholder="03000000000">
+                        </div>
+                        <div class="d-flex justify-content-center m-2">
+                            <a href="Home Page.html" class="btn bg-pink text-light">Agree and Continue</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login Up  Modal -->
+
+
+
+</body>
+
+</html>
