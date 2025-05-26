@@ -1,0 +1,26 @@
+ Task:
+	choose a website and devise your task and instructions. 
+This involves developing a simple task for the person who 
+is the subject and writing the sheet you will give them to 
+let them know what the task is they are to try to do. You 
+also have to consider whether you will prepare any other 
+written materials for them (e.g., selected pages from a user's manual). 
+
+ interview guide:
+	
+
+questionnaire:
+	You should write a short (a page or less) follow up questionnaire 
+to go to the user at the end of the test period to capture what you think 
+might be important retrospectively. 
+
+consent form:
+	You SHOULD have a consent form; it should have a space for 
+the subject's name, address, and telephone number.
+
+What should be included in your observations and recommendations? Things like: 
+1) Problems users had in using the system and why (differences in interpreting words, instructions, etc.). 
+2) Unexpected difficulties in doing the test, and how you might change it. 
+3) Insight into what the user expected or needed but did not find. 
+4) Points in the process where you were forced to help subjects and why. 
+5) Be sure to pinpoint where difficulties arose (e.g. screen layout, documentation, etc.) 
