@@ -1,0 +1,8 @@
+You are designing a software for the university’s library. In which
+both teachers and students can issue new books or renew already issued book. 
+A student can issue up to 5 books at one time and there is no limit of books for teachers. 
+Only the librarian can add and remove the books in the system. Only the librarian can add and remove students and teachers in the system. 
+The librarian firstly logs into the system, then authenticate the students using his/her roll number. He also checks how many books have been issued to that student. Librarian can search the books by ID, title, author name, publisher, etc. 
+Students have to show their ‘student ID cards’ to issue the books. The Librarian firstly checks the books availability before issuing them. 
+Students have to return the books within 30 days of book issuance. There is no time limit imposed on teachers. 
+If student fails to do so, a fine will be imposed by the librarian which student will pay before issuing or renewing books. 
