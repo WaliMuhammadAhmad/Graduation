@@ -1,0 +1,77 @@
+Group 08 :
+Section : 3.7.1
+Section Name :TCP Conjestion Control
+Member 01 :Umar Waris(2021-SE-28)
+Member 02 :Abdul Haseeb(2021-SE-22)
+
+Group 09 :
+Section : 7.1
+Member 01 :kausar fatima(2021-SE-25)
+Member 02 :Ume habiba(2021-SE-27)
+
+
+Group 10 :
+Section : 7.2
+Member 01 : Hashim(2021-SE-06)
+Member 02 :Muhammad Usama(2021-SE-41)
+
+Group 11 :
+Section : 7.3.1
+Member 01 : Nimra(2021-SE-31)
+Member 02 :Mohsina(2021-SE-35)
+
+Group 12 :
+Section : 7.3.2
+Member 01 : Zain Ali(2021-SE-23)
+Member 02 :Hammad ul Hassan(2021-SE-36)
+
+Group 13 :
+Section : 7.3.3
+Member 01 : Iman(2021-SE-10)
+Member 02 :Khadija Rasti(2021-SE-53)
+
+Group 14 :
+Section : 7.3.4 -7.3.6
+Member 01 : Kokab(2021-SE-03)
+
+Group 15:
+Section : 7.4
+Member 01 : Aliha(2021-SE-01)
+Member 02 :Zara(2021-SE-29)
+
+Group 16 :
+Section : 7.5
+Member 01 : Rizwaullah(2021-SE-46)
+Member 02 :Muhammad Noman(2021-SE-49)
+Member 03 : Samsor Rehman(2021-SE-50)
+
+Group 17 :
+Section : 7.6
+Member 01 : Areej(2021-SE-13)
+Member 02 :Hira Amanat(2021-SE-19)
+
+Group 18 :
+Section : 7.7
+Member 01 : Waqas(2021-SE-21)
+Member 02 :Afaq Ali(2021-SE-18)
+
+Group 19 :
+Section : 7.8
+Member 01 : Armab(2021-SE-09)
+
+Group 20:
+Section : 9.1
+Member 01 :Aiza Nawaz(2021-SE-05)
+
+Group 21 :
+Section : 9.2
+Member 01 : Ghazanfar(2021-SE-16)
+Member 02 :Husnain(2021-SE-07)
+Member 03 : Abdur  Rehman(2021-SE-43)
+
+
+Group 22:
+Section : 9.3
+Member 01 : Sameer(2021-SE-55)
+Member 02 :Faqeed(2021-SE-54)
+Member 03 : Saad Amjad(2021-SE-32)

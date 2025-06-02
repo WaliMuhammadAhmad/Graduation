@@ -1,0 +1,186 @@
+**SCD**
+
+Lecture#1 (Week#1) 5-9 tue
+- Software Construction
+- Implementation
+- Logic Building
+- SDLC
+
+Lecture#2 (Week#1) 6-9 wed
+- Missed
+
+*Week#1*
+(Overview of SDLC, Domain Modelling, Requirement Analysis, Requirement Specification, Architecture and design, Implementation, Testing, Deployment, Maintenance)
+_______________________________________________________________________________________
+
+Lecture#3 (Week#2) 12-9 tue
+SE - Design, Documentation
+- FR
+- Non-FR
+- User Req.
+- WRSPM 
+- Architecture
+
+Lecture#4 (Week#2) 13-9 wed
+- Module
+- Activity to identify nouns (classes), verbs from a scenario
+
+*Week#2*
+(Requirements VS Specifications
+Functional & Non-Functional Requirements
+WRSPM Model)
+_______________________________________________________________________________________
+
+Lecture#5 (Week#3) 19-9 tue
+- Missed
+
+Lecture#6 (Week#3) 20-9 wed
+- Domain Modeling
+- Req. Elicitation
+- Software Architecture
+- Software Architecture Models: Pipe & filter, Blackboard, Layered, Client-Server, Event-based
+- Software Design
+- Modularity 
+1. coupling
+2. cohesion
+3. information hiding
+4. data encuplation
+
+*Week#3*
+(SA, SA Models, SD, Testing: black box testing etc.)
+_______________________________________________________________________________________
+
+Lecture#7 (Week#4) 26-9 tue
+- Tightly coupling
+- Loosly Coupling
+- Medium Coupling
+- Weak Cohesion
+- Medium Cohesion
+- Strong cohesion
+
+Lecture#8 (Week#4) 27-9 wed
+- Quiz#1 
+
+*Week#4*
+(Coupling, Cohesion)
+_______________________________________________________________________________________
+
+Lecture#9 (Week#5) 3-10 tue
+- Missed
+
+Lecture#10 (Week#5) 4-10 wed
+- Itrative Model
+- Unified Model
+- Architecture:-
+- Spiral Model
+- GATE CHECK
+- Agile
+
+*week#5*
+()
+_______________________________________________________________________________________
+
+Lecture#11 (Week#6) 10-10 tue
+- Agile Values
+- Agile Principles
+*Lab*
+- IDEA
+- Principle of Personal Software Process
+- rest of the points are in .doc from frajad
+
+Lecture#12 (Week#6) 11-10 wed
+- Team Software Process
+- Principles
+- Self Reading: PSP + TSP
+- SCRUM
+
+*week#6*
+()
+_______________________________________________________________________________________
+
+Lecture#13 (Week#7) 17-10 tue
+- Error
+- Error Handling
+- Execptoin
+- try catch block
+- try catch throw block
+
+Lecture#14 (Week#7) 18-10 wed
+- Fault Tolerence
+- Techniques
+
+*week#7*
+()
+_______________________________________________________________________________________
+
+Lecture#15 (Week#8) 24-10 tue
+- Design
+- charateristic
+- Principles
+- SOLID Prinsiples
+
+Lecture#16 (Week#8) 25-10 wed
+- Cancelled
+
+*week#8*
+()
+_______________________________________________________________________________________
+
+Covered Topics (04-Sep-2023 to 18-Oct-2023)
+
+Overview of SDLC 
+Domain Modelling, Requirement Analysis, Requirement Specification, Architecture and design, Implementation, Testing, Deployment, Maintenance
+Requirements VS Specifications
+Functional & Non-Functional Requirements
+WRSPM Model
+What is Software Architecture?
+Software Architecture Models: Pipe & filter, Blackboard, Layered, Client-Server, Event-based
+
+Software Design 
+Object Oriented Design (Encapsulation, Inheritance, Polymorphism, Abstraction)
+Modularity (coupling & Cohesion)
+SOLID (Design Principles)
+UML Diagrams
+Designing Process: 
+Identify nouns, relate nouns (attributes), remove the nouns with different names but the same purpose, group the related nouns, identify potential classes
+Identify relating Verbs with the noun and specify the functions for that class
+Identify relations (Association, aggregation, composition)
+Identify Multiplicity 
+UML Diagrams
+Software Construction (Code Complete: ch 1 -SWEBOK chapter 3 section: 1)
+Key Construction Decisions: (Code Complete: ch 4)
+Development Models: 
+Iterative vs Incremental ---- Predictive vs Adaptive
+Waterfall, V, Sashmi, Unified Process, Spiral, Phase Gate
+Deployment, Rollback and deployment cutover strategies (Cold backup, Warm Standby, Hot Failover)
+Testing 
+Verification & Validation
+Black-Box Testing & White-Box testing
+Top-down Testing & Bottom-Up testing
+Unit Testing, Integration Testing
+Agile Manifesto and Principles - SCRUM Model
+Personal Software Process (PSP), Team Software process (TSP)
+Error Handling
+Exception Handling
+Fault Tolerance
+
+_______________________________________________________________________________________
+
+					MIDS
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+Lecture#1 (Week#9) 7-11 tue
+- Mids paper discuss
+
+Lecture#2 (Week#9) 8-11 wed
+- Mids paper check
+_______________________________________________________________________________________
+
+Lecture#3 (Week#10) 14-11 tue
+- 
+- 
+
+Lecture#4 (Week#10) 15-11 wed
+- 
+- 

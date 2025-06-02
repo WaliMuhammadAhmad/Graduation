@@ -1,0 +1,124 @@
+****************************************************************************************
+**                                             AI                                     **
+****************************************************************************************
+Lecture#1 (Week#1) 5-9 tue
+- What is Intelligence
+- What is AI
+- Reflexive Action
+- History of AI
+
+Lecture#2 (Week#1) 7-9 thr
+- Missed
+
+*Week#1*
+()
+_______________________________________________________________________________________
+
+Lecture#3 (Week#2) 12-9 tue
+- Agent
+- Types of agents
+
+Lecture#4 (Week#2) 14-9 thr
+- AI agent: AI assistant
+- Problem solving by searching
+
+*Week#2*
+()
+_______________________________________________________________________________________
+
+Lecture#5 (Week#3) 19-9 tue
+- Missed
+
+Lecture#6 (Week#3) 21-9 thr
+- Problem solving by searching
+- search strategies
+- frontier
+- BFS
+- UCS
+- DFS
+
+*Week#3*
+()
+_______________________________________________________________________________________
+
+Lecture#7 (Week#4) 26-9 tue
+- Depth Limit search
+
+Lecture#8 (Week#4) 28-9 thr
+- 
+
+*Week#4*
+()
+_______________________________________________________________________________________
+
+Lecture#9 (Week#5) 3-10 tue
+- 
+
+Lecture#10 (Week#5) 5-10 thr
+- Local Search
+- Meta heuristic
+- Optimisation Problem
+
+*week#5*
+()
+_______________________________________________________________________________________
+
+Lecture#11 (Week#6) 10-10 tue
+- Minimax Algorithm
+- Multiplayer games
+- Alpha beta purning
+
+Lecture#12 (Week#6) 12-10 thr
+- 
+
+*week#6*
+()
+_______________________________________________________________________________________
+
+Lecture#13 (Week#7) 17-10 tue
+- Genetic Algorithm
+
+Lecture#14 (Week#7) 19-10 thr
+- Crossover
+- Survival of fittest
+- Termination
+- Fitness function
+- Roulette
+
+*week#7*
+()
+_______________________________________________________________________________________
+
+Lecture#15 (Week#8) 24-10 tue
+- ML
+- DL
+- ML types
+
+Lecture#16 (Week#8) 26-10 thr
+- Revision
+
+*week#8*
+()
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+					MIDS
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+Lecture#1 (Week#9) 7-11 tue
+- Mids paper discuss
+- ML types
+- Supervised Machine Learning 
+
+Lecture#2 (Week#9) 9-11 thr
+- Cancelled
+_______________________________________________________________________________________
+
+Lecture#3 (Week#10) 14-11 tue
+- 
+- 
+
+Lecture#4 (Week#10) 16-11 thr
+- 
+- 
