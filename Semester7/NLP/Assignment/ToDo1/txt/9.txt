@@ -1,0 +1,4 @@
+You would write a detection algorithm for each of the patterns that you noticed,
+and your program would flag emails as spam if a number of these patterns were
+detected. You would test your program and repeat steps 1 and 2 until it was good enough
+to launch.

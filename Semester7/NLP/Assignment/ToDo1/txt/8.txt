@@ -1,0 +1,4 @@
+First you would consider what spam typically looks like. You might notice that
+some words or phrases (such as “4U,” “credit card,” “free,” and “amazing”) tend to
+come up a lot in the subject line. Perhaps you would also notice a few other pat‐
+terns in the sender’s name, the email’s body, and other parts of the email.

@@ -1,0 +1,54 @@
+Downloading and Building SRILM
+
+Building SRILM
+
+SRILM is available only in source form. We cannot offer precompiled binaries, so you will have to download the source code and build and install the software yourself. Instructions can be found in the INSTALL file in the top-level distribution directory.
+
+If you have previously downloaded SRILM you may want to check for the current release version and the change log.
+
+Prerequisites
+
+Besides the SRILM distribution, you will also need the following freely available tools:
+
+A template-capable ANSI-C/C++ compiler, preferably GCC version 3.4.3 or higher. Be sure to build or download g++ (the C++ compiler) component of GCC. Recent versions of Microsoft Visual Studio Express should also work.
+GNU make, to control compilation and installation.
+GNU gawk, required for many of the utility scripts.
+GNU gzip to unpack the distribution, and to allow SRILM programs to handle ".Z" and ".gz" compressed datafiles (highly recommended).
+bzip2 to handle ".bz2" compressed files (optional).
+p7zip to handle "7-zip" compressed files (optional).
+XZ Utils to handle ".xz" compressed files (optional).
+The iconv library or equivalent, to handle UTF-encoded text files on Unix-based systems. (This library may already be integrated in your C library.)
+The Tcl embeddable scripting language library (only required for some of the test executables).
+The Cygwin porting layer, to build SRILM on a Microsoft Windows system. Cygwin comes with the packages above, although they may not all be installed by default. Alternatively, you can build native Windows binaries using the free MS Visual Studio 2010 Express compiler.
+Noncommercial Use
+
+Government agencies, and schools, universities, and non-profit organizations can download SRILM free of charge under SRI's "Research Community License", for use in projects that do not receive external funding other than government research grants and contracts. For other uses please inquire about commercial licensing.
+Download
+
+To download the source code, please first fill in the form below. Read the License document and indicate your agreement to comply with it by pressing the button below. This will start the download. The distribution is in gzipped tar format, so you should tell your browser to store the data in a file ending in ".tar.gz". You will need the "gunzip" and "tar" utilities to unpack the downloaded file into a directory structure.
+
+
+The only use we will make of your address information is as a record of the licensing and to inform you of software updates. It will not be passed on to third parties. If you decide the License or the software is not for you, please do not proceed to download the software.
+
+If you do want to use SRILM or are generally interested in it, please consider joining the SRILM user mailing list.
+
+> > > > DOWNLOAD SRILM TOOLKIT < < < <
+References
+
+Published research using SRILM may cite the following paper:
+
+A. Stolcke (2002), SRILM -- An Extensible Language Modeling Toolkit. Proc. Intl. Conf. on Spoken Language Processing, vol. 2, pp. 901-904, Denver.
+Research making use of factored language models should also cite:
+
+J. A. Bilmes and K. Kirchhoff (2003), Factored language models and generalized parallel backoff, Proc. HLT-NAACL, pp. 7-9, Edmonton, Alberta.
+Research making use of the maximum entropy modeling functionality should also cite:
+
+T. Alumäe and M. Kurimo (2010), Efficient Estimation of Maximum Entropy Language Models with N-gram features: an SRILM extension, Proc. Interspeech, pp. 1820-1823, Makuhari, Japan.
+Back to SRILM main page. 
+
+ 
+
+About Us  Vertical divider  R&D Divisions  Divider  Careers  Divider  Newsroom  Divider  Contact Us
+©2011 SRI International, 333 Ravenswood Avenue, Menlo Park, CA 94025-3493
+SRI International is an independent, nonprofit corporation. Privacy policy
+Last modified Sep 23, 2022

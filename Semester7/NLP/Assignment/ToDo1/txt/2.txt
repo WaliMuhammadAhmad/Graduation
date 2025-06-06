@@ -1,0 +1,4 @@
+Where does Machine Learning start and where does it end? What exactly does it
+mean for a machine to learn something? If I download a copy of Wikipedia, has my
+computer really learned something? Is it suddenly smarter? In this chapter we will
+start by clarifying what Machine Learning is and why you may want to use it

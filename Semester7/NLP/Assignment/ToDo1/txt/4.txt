@@ -1,0 +1,5 @@
+This chapter introduces a lot of fundamental concepts (and jargon) that every data
+scientist should know by heart. It will be a high-level overview (it’s the only chapter
+without much code), all rather simple, but you should make sure everything is crystal
+clear to you before continuing on to the rest of the book. So grab a coffee and let’s get
+started!

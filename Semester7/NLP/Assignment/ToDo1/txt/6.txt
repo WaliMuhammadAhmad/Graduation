@@ -1,0 +1,8 @@
+Your spam filter is a Machine Learning program that, given examples of spam emails
+(e.g., flagged by users) and examples of regular (nonspam, also called “ham”) emails,
+can learn to flag spam. The examples that the system uses to learn are called the train‐
+ing set. Each training example is called a training instance (or sample). In this case, the
+task T is to flag spam for new emails, the experience E is the training data, and the
+performance measure P needs to be defined; for example, you can use the ratio of
+correctly classified emails. This particular performance measure is called accuracy,
+and it is often used in classification tasks.

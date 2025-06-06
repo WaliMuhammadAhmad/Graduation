@@ -1,0 +1,5 @@
+Then, before we set out to explore the Machine Learning continent, we will take a
+look at the map and learn about the main regions and the most notable landmarks:
+supervised versus unsupervised learning, online versus batch learning, instancebased versus model-based learning. Then we will look at the workflow of a typical ML
+project, discuss the main challenges you may face, and cover how to evaluate and
+fine-tune a Machine Learning system.

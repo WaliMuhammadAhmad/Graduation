@@ -1,0 +1,5 @@
+In contrast, a spam filter based on Machine Learning techniques automatically learns
+which words and phrases are good predictors of spam by detecting unusually fre‐
+quent patterns of words in the spam examples compared to the ham examples
+(Figure 1-2). The program is much shorter, easier to maintain, and most likely more
+accurate.

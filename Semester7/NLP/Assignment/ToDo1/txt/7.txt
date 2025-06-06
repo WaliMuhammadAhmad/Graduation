@@ -1,0 +1,6 @@
+If you just download a copy of Wikipedia, your computer has a lot more data, but it is
+not suddenly better at any task. Thus, downloading a copy of Wikipedia is not
+Machine Learning.
+Why Use Machine Learning?
+Consider how you would write a spam filter using traditional programming techni‐
+ques (Figure 1-1):
