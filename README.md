@@ -10,145 +10,19 @@ This repository contains course materials, projects, assignments, and notes coll
 
 ---
 
-## 📚 Semester-wise Folder Structure
+## 🗂 Semester-wise Notes Index
 
-Explore your desired semester and its courses by clicking through the folder hierarchy below:
+<!-- SEMESTER-LIST-START -->
 
-<details>
-<summary><strong>[Semester 1]</strong></summary>
-
-```
-
-📁 Semester 1
-├── 📁 \[PF] - Programming Fundamentals
-│    ├── Mid
-│    ├── Final
-│    ├── Project
-│    └── Presentations
-├── 📁 \[Calculus]
-│    ├── Mid
-│    ├── Final
-│    └── Assignments
-├── 📁 \[English]
-├── 📁 \[Physics]
-└── 📁 \[AICT] (formerly ITC)
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 2]</strong></summary>
-
-```
-
-📁 Semester 2
-├── 📁 \[OOP]
-├── 📁 \[Linear Algebra]
-├── 📁 \[Communication Skills]
-├── 📁 \[Basic Electronics]
-└── 📁 \[Differential Equations]
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 3]</strong></summary>
-
-```
-
-📁 Semester 3
-├── 📁 \[DSA] - Data Structures and Algorithms
-├── 📁 \[DBMS]
-├── 📁 \[SE-I]
-├── 📁 \[Discrete Mathematics]
-└── 📁 \[Probability & Statistics]
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 4]</strong></summary>
-
-```
-
-📁 Semester 4
-├── 📁 \[OS] - Operating Systems
-├── 📁 \[Computer Networks]
-├── 📁 \[Web Engineering]
-├── 📁 \[SE-II]
-└── 📁 \[Technical Writing]
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 5]</strong></summary>
-
-```
-
-📁 Semester 5
-├── 📁 \[Software Design & Architecture]
-├── 📁 \[Mobile App Development]
-├── 📁 \[Human-Computer Interaction]
-├── 📁 \[Computer Architecture]
-└── 📁 \[Elective I]
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 6]</strong></summary>
-
-```
-
-📁 Semester 6
-├── 📁 \[Enterprise Application Development]
-├── 📁 \[Software Quality Engineering]
-├── 📁 \[Machine Learning]
-├── 📁 \[Distributed Systems]
-└── 📁 \[Elective II]
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 7]</strong></summary>
-
-```
-
-📁 Semester 7
-├── 📁 \[FYP-I]
-├── 📁 \[Software Project Management]
-├── 📁 \[Professional Practices]
-├── 📁 \[Information Security]
-└── 📁 \[Elective III]
-
-```
-
-</details>
-
-<details>
-<summary><strong>[Semester 8]</strong></summary>
-
-```
-
-📁 Semester 8
-├── 📁 \[FYP-II]
-├── 📁 \[Entrepreneurship]
-├── 📁 \[Elective IV]
-└── 📁 \[Elective V]
-
-```
-
-</details>
-
----
+- [1st Semester](./Semester1/README.md)
+- [2nd Semester](./Semester2/README.md)
+- [3rd Semester](./Semester3/README.md)
+- [4th Semester](./Semester4/README.md)
+- [5th Semester](./Semester5/README.md)
+- [6th Semester](./Semester6/README.md)
+- [7th Semester](./Semester7/README.md)
+- [8th Semester](./Semester8/README.md)
+<!-- SEMESTER-LIST-END -->
 
 ## 📝 Usage
 

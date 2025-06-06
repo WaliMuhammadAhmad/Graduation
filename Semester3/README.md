@@ -1,5 +1,7 @@
 # 📘 Semester3 Contents
 
+[⬅ Back to Main README](../README.md)
+
 ```
 📁 Semester3
 ├── 📁 APS
@@ -78,12 +80,6 @@
 │   │       ├── 📄 IHCI - Protocol Analysis Report.pdf
 │   │       ├── 📄 IHCI - Questionnaire Task1 (Blank).docx
 │   │       ├── 📄 IHCI - Questionnaire Task2 (Blank).docx
-│   │       ├── 📁 IHCI Tasks
-│   │       │   ├── 📁 IHCI - Subject#1
-│   │       │   ├── 📁 IHCI - Subject#2
-│   │       │   ├── 📁 IHCI - Subject#3
-│   │       │   ├── 📁 IHCI - Subject#4
-│   │       │   └── 📁 IHCI - Subject#5
 │   │       ├── 📁 Subject#1
 │   │       │   ├── 📄 IHCI - Questinaries Task2 (Filled Subject#1).docx
 │   │       │   ├── 📄 IHCI - Questionnaire Task1 (Filled Subject#1).docx
