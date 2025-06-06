@@ -1,4 +1,4 @@
-name: Auto Generate Semester READMEs
+name: Auto-Generate READMEs
 
 on:
   push:
@@ -8,32 +8,36 @@ on:
       - "generate_readmes.py"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🐍 Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      - name: 🧠 Run README generation script
-        run: |
-          echo "Running generate_readmes.py"
-          python generate_readmes.py
+      - name: Run script
+        run: python generate_readmes.py
 
-      - name: ✅ Commit and push changes
+      - name: Commit and push changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
           git add .
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "🤖 Auto-update semester README.md files"
             git push
-          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
