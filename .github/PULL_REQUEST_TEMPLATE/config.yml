@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+pull_request_templates:
+  - name: Feature Request
+    path: PULL_REQUEST_TEMPLATE/feature.md
+  - name: Bug Fix
+    path: PULL_REQUEST_TEMPLATE/fix.md
+  - name: Documentation Update
+    path: PULL_REQUEST_TEMPLATE/documentation.md
+  - name: Refactor Code or Structure
+    path: PULL_REQUEST_TEMPLATE/refactor.md
