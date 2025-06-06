@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    height: 20%;
+}
+
+.menu {
+    display: inline;
+    float: left;
+    width: 18%;
+    height: 80%;
+    padding: 20px;
+}
+
+.body {
+    display: flex;
+    float: right;
+    width: 70%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+button {
+    width: 50px;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer {
+    height: 20%;
+    width: 100%;
+    background-color: #000000af;
+    color: white;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}

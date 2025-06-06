@@ -1,0 +1,569 @@
+{
+  "id": "8549954c-85ad-4847-8c4e-a9d2c2d3d1ad",
+  "version": "2.0",
+  "name": "SQEAssignment#2",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "e769876b-120a-434d-ae91-e9a81d6118e8",
+    "name": "Task1",
+    "commands": [{
+      "id": "8a5071da-6077-49b7-b1d1-264d6c985d2f",
+      "comment": "",
+      "command": "echo",
+      "target": "Name: Wali Muhammad | RegNo. 2021-SE-39",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db4fd938-7876-4a8d-b580-91609748a34d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b12b9557-d543-4f01-be9e-836209143f0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a14351d-9f50-486e-b51c-e702c53db699",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "dollar rate today"
+    }, {
+      "id": "73f8fa5e-9e57-443d-a94a-7355dc063e27",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=APjFqb",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b202f530-872f-4239-bbea-0118f32653a9",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.SwHCTb",
+      "targets": [],
+      "value": "dollarRate"
+    }, {
+      "id": "ece32084-312e-40b7-9980-2f1d5ea2aa0c",
+      "comment": "",
+      "command": "echo",
+      "target": "${dollarRate}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0d878d7-b556-4038-b6fb-4784dcec340e",
+      "comment": "",
+      "command": "if",
+      "target": "${dollarRate}<260",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88dd538c-24ed-4b16-b247-f2d2190ab5b0",
+      "comment": "",
+      "command": "echo",
+      "target": "congratulations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91b7a66c-d433-4971-a295-771795b19c26",
+      "comment": "",
+      "command": "elseIf",
+      "target": "${dollarRate}>260",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52a45bd9-0061-4624-ac69-9306c99dcfe1",
+      "comment": "",
+      "command": "echo",
+      "target": "Oh No",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59afd29b-fc4f-4606-9c20-8c58ab04371d",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eb1f982-7914-49ff-9423-565ed23d1f1a",
+      "comment": "",
+      "command": "echo",
+      "target": "No change in the rate",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9dffaba-f849-4bc6-85d9-337523e66fd0",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b19341db-5fac-4b7a-8ff3-d046fa6f7f6d",
+    "name": "Task2",
+    "commands": [{
+      "id": "8de33415-5ff9-4f2f-bed9-52d3be0bacdc",
+      "comment": "",
+      "command": "echo",
+      "target": "Name: Wali Muhammad | RegNo. 2021-SE-39",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "636d8c39-04d7-4812-9ae6-9f5565c02ce7",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6528116-9528-4156-af87-5241010433ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9817e52-03cd-4611-876a-5e8367669f14",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [],
+      "value": "online calculator"
+    }, {
+      "id": "445939a2-656e-4179-951f-3a0e41c52ad2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=APjFqb",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1ce13c5e-8324-4937-9f02-db71cffddc84",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case 1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38608163-ff71-46a0-afcf-dcf603653c1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[3]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bdc08ea-52f7-44ed-9aff-497367b386d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .mF5fo > .MEdqYd",
+      "targets": [
+        ["css=tr:nth-child(5) .mF5fo > .MEdqYd", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35d47720-ef6f-40e4-b313-648c99053e4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82ae1341-1c97-4ac0-ab49-85ac93ccd5e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(5) .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30b728e8-8ab7-4296-b2fa-7448b331a5f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44a7935a-39b9-4139-997e-9748a5e824c4",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=cwos",
+      "targets": [
+        ["id=cwos", "id"],
+        ["css=#cwos", "css:finder"],
+        ["xpath=//span[@id='cwos']", "xpath:attributes"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'5 + 10')]", "xpath:innerText"]
+      ],
+      "value": "result"
+    }, {
+      "id": "4abf6b39-53cb-4d87-8fe3-27bed08dcd7b",
+      "comment": "",
+      "command": "if",
+      "target": "5+10==${result}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e6388cc-b570-4f23-bb2e-442b773e70b1",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case Passed",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4d7185d-4550-4c6c-900c-66d4eecc1184",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e429ddfa-6611-4a65-9c5c-e91939bb88d2",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case 2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ef4223d-f30c-4294-b487-79c93992f684",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)",
+      "targets": [
+        ["css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb6de96-0620-44d3-baaf-33f814eb6116",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8418b1ab-5d5c-4dac-9dd9-33e2d4cdf3af",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(5) .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ebc8d22-d811-4f73-a99e-467052012f05",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .mF5fo > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) .mF5fo > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2cc1024-3475-4157-9285-e1f57aafb961",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[3]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4adf3a53-4972-4d22-bd8b-f74977799f30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70f6c8a2-8a23-4e31-8734-08bd4c598839",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=cwos",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "1a6ae810-ccf1-4c2c-bb93-3c9412c201a0",
+      "comment": "",
+      "command": "if",
+      "target": "10-5==${result}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "825b8073-c01d-47c4-9c92-35e640868d9c",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case Passed",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84394a40-15db-4344-816b-7e2f3c80387c",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18e6dc92-a033-46ef-9889-1e03b09a0705",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case 3",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c53b2254-74a3-49a1-b9b2-52cc9de2e226",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bcd645c-2d47-4edd-93c3-fc839e5017e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e172ecbc-a53d-4ab4-b5d1-9f8c478bdf3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .mF5fo > .XRsWPe",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "570c2230-a2a1-43e7-8955-cf83a9e82425",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e3679e4-65af-43f7-8fad-8429c28a165c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(5) .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d9ec9d-b9ae-4a27-a610-6593a2cc13e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f8c7de7-f0dd-4749-8136-86b61a29b970",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=cwos",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "7897f34a-ed83-4bec-9c28-c94d4ca45266",
+      "comment": "",
+      "command": "if",
+      "target": "5*10==${result}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "675dedd2-d21f-42a0-b1b9-c00a810debe5",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case Passed",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4059736-f4cd-4f61-a536-2c94318a14d6",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "616a43e3-e3cb-4e90-9e3b-7dd026278664",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)",
+      "targets": [
+        ["css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a71540d-e840-4a69-b0a8-819152d7e808",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a379a475-8494-4563-990e-74fef7547920",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(5) .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2179c7ab-6c89-4a9f-8485-7359d2fdd21f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .mF5fo > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(2) .mF5fo > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[2]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccdbd13f-4e28-44b4-9dc7-bc38117e7e0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[3]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3568f596-28da-41b5-865e-02705cd93366",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a717b91-33a8-4dd1-a8de-88d5166cd9fc",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=cwos",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "433848b4-7dbc-419d-adab-90621b70a683",
+      "comment": "",
+      "command": "if",
+      "target": "10/5==${result}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76a8853b-2a43-4dbc-882f-acdc12ff4d0c",
+      "comment": "",
+      "command": "echo",
+      "target": "Test Case Passed",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71864127-0cc0-4163-a970-0fdd470ba3dc",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5269f50-4ac9-4c66-b506-2d9dae29a692",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)",
+      "targets": [
+        ["css=td:nth-child(4) > .UpZIS > .XRsWPe:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div[3]/div/table[2]/tbody/tr/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "833d7bdb-7b39-4203-b590-289e1a0236bb",
+      "comment": "",
+      "command": "echo",
+      "target": "All Test Cases Passed",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "522e7a71-0e39-4bc5-ad67-10cf08eba529",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e769876b-120a-434d-ae91-e9a81d6118e8"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

@@ -1,0 +1,213 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href=""></a><img src="img/dreambird-logo.png" style="width: 50px;height:50px;" />
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <i class="caret"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="">Video</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="modal" data-target="#myModal">Sign In</a></li>
+      </ul>
+    </div>
+  </div>
+  <br /><br />
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sign In</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-group">
+            <label>Username:</label>
+            <input type="text" class="form-control" placeholder="Enter Your Username" autofocus="on" /><br />
+            <label>Password:</label>
+            <input type="password" class="form-control" placeholder="Enter Your password" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" style="float:left">Sign Up</button>
+          <button type="button" class="btn btn-default">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="carousel slide" data-ride="carousel" id="mycar">
+    <ol class="carousel-indicators">
+      <li data-target="#mycar" data-slide-to="1" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slider4.jpg" width="100%" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <br />
+  <div class="container-fluid">
+    <div class="col-md-12">
+      <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a data-toggle="pill" href="#home">Electronics</a></li>
+          <li><a data-toggle="pill" href="#menu1">Clothing</a></li>
+          <li><a data-toggle="pill" href="#menu2">Groceries</a></li>
+          <li><a data-toggle="pill" href="#menu3">Vehicles</a></li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>Electronics</h3>
+
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#tv">TV</a></li>
+              <li><a data-toggle="tab" href="#lap">Laptop</a></li>
+              <li><a data-toggle="tab" href="#mob">Mobile</a></li>
+              <li><a data-toggle="tab" href="#app">Appliances</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="tv" class="tab-pane fade in active">
+                <p>Choose Your TV</p><br /><br /><br /><br /><br /><br />
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <div class="panel-title">
+                      <a href="#comm1" data-toggle="collapse">LEAVE A COMMENT</a>
+                    </div>
+                  </div>
+                  <div class="panel-collapse collapse" id="comm1">
+                    <textarea class="form-control"
+                      style="max-width:80%;height:200px;max-height:200px;margin:30px 0px 0px 10%;"
+                      placeholder="Enter Your Comment Here"></textarea>
+                    <br />
+                    <button class="btn btn-primary" style="margin-left:10%;">Comment</button><br /><br />
+                  </div>
+
+                </div>
+              </div>
+              <div id="lap" class="tab-pane fade">
+                <p>Choose Your Laptop</p>
+              </div>
+              <div id="mob" class="tab-pane fade">
+                <p>Choose Your Mobile Phone</p>
+              </div>
+              <div id="app" class="tab-pane fade">
+                <p>Choose Your Home Appliances</p>
+              </div>
+            </div>
+
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>Clothing</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#1">Men's Wear</a></li>
+              <li><a data-toggle="tab" href="#2">Women's Wear</a></li>
+              <li><a data-toggle="tab" href="#3">Children's Wear</a></li>
+              <li><a data-toggle="tab" href="#4">Winters Collection</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="1" class="tab-pane fade in active">
+                <p>Choose Your Clothes</p>
+              </div>
+              <div id="2" class="tab-pane fade">
+                <p>Choose Your Clothes</p>
+              </div>
+              <div id="3" class="tab-pane fade">
+                <p>Choose Your Clothes</p>
+              </div>
+              <div id="4" class="tab-pane fade">
+                <p>Choose Your Clothes</p>
+              </div>
+            </div>
+
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>Groceries</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#5">Beverages</a></li>
+              <li><a data-toggle="tab" href="#6">Breakfast</a></li>
+              <li><a data-toggle="tab" href="#7">Dairy Products</a></li>
+              <li><a data-toggle="tab" href="#8">Food</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="5" class="tab-pane fade in active">
+                <p>Choose Your Beverages</p>
+              </div>
+              <div id="6" class="tab-pane fade">
+                <p>Choose Your Breakfast</p>
+              </div>
+              <div id="7" class="tab-pane fade">
+                <p>Choose Your Dairy Products</p>
+              </div>
+              <div id="8" class="tab-pane fade">
+                <p>Choose Your Food</p>
+              </div>
+            </div>
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <h3>Vehicles</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#11">Oil</a></li>
+              <li><a data-toggle="tab" href="#12">Tires</a></li>
+              <li><a data-toggle="tab" href="#13">Electronics</a></li>
+              <li><a data-toggle="tab" href="#14">Accessories</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="11" class="tab-pane fade in active">
+                <p>Choose Your Oil</p>
+              </div>
+              <div id="12" class="tab-pane fade">
+                <p>Choose Your Tires</p>
+              </div>
+              <div id="13" class="tab-pane fade">
+                <p>Choose Your Electronics</p>
+              </div>
+              <div id="14" class="tab-pane fade">
+                <p>Choose Your Accessories</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+
+
+</body>
+
+</html>

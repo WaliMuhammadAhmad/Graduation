@@ -1,0 +1,23 @@
+/* .slider {
+    width: 98vw;
+    height: 100vh;
+    padding: 10px;
+} */
+
+.iconrow{
+    display:flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.iconslist {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 10px;
+    width: 10px;
+}

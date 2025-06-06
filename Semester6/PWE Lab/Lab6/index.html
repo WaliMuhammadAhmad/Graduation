@@ -1,0 +1,1736 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href=""></a><img src="img/dreambird-logo.png" style="width: 50px ;height:50px;" />
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <i class="caret"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="">Video</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Music</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="modal" data-target="#myModal">Sign In</a></li>
+      </ul>
+    </div>
+  </div>
+  <br /><br />
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sign In</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-group">
+            <label>Username:</label>
+            <input type="text" class="form-control" placeholder="Enter Your Username" autofocus="on" /><br />
+            <label>Password:</label>
+            <input type="password" class="form-control" placeholder="Enter Your password" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" style="float:left">Sign Up</button>
+          <button type="button" class="btn btn-default">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="carousel slide" data-ride="carousel" id="mycar">
+    <ol class="carousel-indicators">
+      <li data-target="#mycar" data-slide-to="0" class="active"></li>
+      <li data-target="#mycar" data-slide-to="1"></li>
+      <li data-target="#mycar" data-slide-to="2"></li>
+      <li data-target="#mycar" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slider.jpg" width="100%" />
+      </div>
+      <div class="item">
+        <img src="img/slider4.jpg" width="100%" />
+      </div>
+      <div class="item">
+        <img src="img/slider5.jpg" width="100%" />
+      </div>
+      <div class="item">
+        <img src="img/slider6.jpg" width="100%" />
+      </div>
+    </div>
+    <a class="left carousel-control" href="#mycar" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+
+    </a>
+    <a class="right carousel-control" href="#mycar" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+
+    </a>
+  </div>
+
+  <br />
+  <div class="container-fluid">
+    <div class="col-md-12">
+      <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a data-toggle="pill" href="#home">Electronics</a></li>
+          <li><a data-toggle="pill" href="#menu1">Clothing</a></li>
+          <li><a data-toggle="pill" href="#menu2">Groceries</a></li>
+          <li><a data-toggle="pill" href="#menu3">Vehicles</a></li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>Electronics</h3>
+
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#tv">TV</a></li>
+              <li><a data-toggle="tab" href="#lap">Laptop</a></li>
+              <li><a data-toggle="tab" href="#mob">Mobile</a></li>
+              <li><a data-toggle="tab" href="#app">Appliances</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="tv" class="tab-pane fade in active">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="lap" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="mob" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="app" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>Clothing</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#1">Men's Wear</a></li>
+              <li><a data-toggle="tab" href="#2">Women's Wear</a></li>
+              <li><a data-toggle="tab" href="#3">Children's Wear</a></li>
+              <li><a data-toggle="tab" href="#4">Winters Collection</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="1" class="tab-pane fade in active">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="2" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="3" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="4" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>Groceries</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#5">Beverages</a></li>
+              <li><a data-toggle="tab" href="#6">Breakfast</a></li>
+              <li><a data-toggle="tab" href="#7">Dairy Products</a></li>
+              <li><a data-toggle="tab" href="#8">Food</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="5" class="tab-pane fade in active">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="6" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="7" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="8" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Smasung</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <h3>Vehicles</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#11">Oil</a></li>
+              <li><a data-toggle="tab" href="#12">Tires</a></li>
+              <li><a data-toggle="tab" href="#13">Electronics</a></li>
+              <li><a data-toggle="tab" href="#14">Accessories</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="11" class="tab-pane fade in active">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="12" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="13" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+              <div id="14" class="tab-pane fade">
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b3.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                      <img src="img/b1.jpg" alt="">
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <h3>Nokia</h3>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="col-3">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                    <div class="col-3" style=" padding-left: 80px;">
+                      <button class="btn btn-primary">Buy</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer" style="display: flex; align-items: center; justify-content: space-evenly;">
+      <div class="logo">
+        <img src="img/dreambird-logo.png" alt="">
+      </div>
+      <div class="col-md-4" style="padding-top: 50px">
+        <div class="d-inline">
+          <a href="#" style="padding: 2px">About</a>
+          <a href="#" style="padding: 2px">Blog</a>
+          <a href="#" style="padding: 2px">News</a>
+          <a href="#" style="padding: 2px">Help Center</a>
+          <a href="#" style="padding: 2px">Contact</a>
+          <a href="#" style="padding: 2px">Site Map</a>
+          <a href="#" style="padding: 2px">Terms of Services and Owner Code</a>
+          <a href="#" style="padding: 2px">Privacy Policy</a>
+          <a href="#" style="padding: 2px">Acessibility Policy</a>
+        </div>
+        <p style="text-align: center;">
+          Copyright 2016 Dreambird Inc. All rights reserved except where
+          noted
+        </p>
+      </div>
+    <div class="icons">
+      <div class="row" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <div class="col-3">
+          <img src="img/fb_icon.png" alt="" style="padding: 20px;">
+        </div>
+        <div class="col-3">
+          <img src="img/twiiter-icon.png" alt="" style="padding: 20px;">
+        </div>
+        <div class="col-3">
+          <img src="img/g+.png" alt="" style="padding: 20px;">
+        </div>
+        <div class="col-3">
+          <img src="img/youtube-logo.png" alt="" style="padding: 20px;">
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>

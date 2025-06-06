@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="first">
+            <div class="logo">2rism
+            <img src="icons/Vector.png" alt="icon" style="width: 30px; height: 30px;">
+        </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Hostels</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="second">
+            <h1>Discover the most engaging palces</h1>
+            <button>Discver on 3D globe</button>
+        </div>
+
+        <div id="third">
+            <div>
+                <div>
+                    <img src="icons/location.png" alt="" />
+                    <div>
+                        <span>Location</span>
+                        <div>Explore nearby</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/activities.png" alt="" />
+                    <div>
+                        <span>Activities</span>
+                        <div>All Activities</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/calendar.png" alt="" />
+                    <div>
+                        <span>When</span>
+                        <div>Choose a Date</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/guest.png" alt="" />
+                    <div>
+                        <span>Guests</span>
+                        <div>I guest</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <form>
+            <table>
+                <h3 style="font-size: 22px;">Trip Plan</h3>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><input type="text" name="address" id="address"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">Town/City</label></td>
+                    <td><input type="text" name="city" id="city"></td>
+                </tr>
+                <tr>
+                    <td><label for="postcode">Postcode:</label></td>
+                    <td><input type="number" name="postcode" id="postcode"></td>
+                </tr>
+                <tr>
+                    <td><label for="days">No. of Days:</label></td>
+                    <td><input type="radio" name="days" id="day2" value="2Days">
+                        <label for="days">2 Days</label>
+                        <input type="radio" name="days" id="day4" value="4Days">
+                        <label for="days">4 Days</label>
+                        <input type="radio" name="days" id="day7" value="7Days">
+                        <label for="days">7 Days</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="persons">Persons:</label>
+
+                    </td>
+                    <td><input type="radio" name="persons" id="one" value="one">
+                        <label for="persons">One</label>
+                        <input type="radio" name="persons" id="two" value="two">
+                        <label for="persons">Two</label>
+                        <input type="radio" name="persons" id="four" value="four">
+                        <label for="persons">Four</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="departure">Departure Time:</label></td>
+                    <td><input type="time" name="departure" id="departure"></td>
+                </tr>
+                <tr>
+                    <td><label for="instructions">Any instructions:</label></td>
+                    <td><textarea name="instructions" id="instructions" cols="20" rows="2"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="service">Service Type:</label></td>
+                    <td><input type="checkbox" name="economy" id="economy" value="economy">
+                        <label for="economy">Economy</label>
+                        <input type="checkbox" name="exactive" id="exactive" value="exactive">
+                        <label for="exactive">exactive</label>
+                        <input type="checkbox" name="business" id="business" value="business">
+                        <label for="business">business</label>
+                        <input type="checkbox" name="golden" id="golden" value="golden">
+                        <label for="golden">golden</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Submit Order" onclick="validateForm(event)"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus beatae quibusdam</h5>
+        <table>
+            <tr>
+                <td>
+                    <h4>About</h4>
+                </td>
+                <td>
+                    <h4>Company</h4>
+                </td>
+                <td>
+                    <h4>Support</h4>
+                </td>
+            </tr>
+            <tr>
+                <td>About us</td>
+                <td></td>
+                <td>ABout us</td>
+            </tr>
+            <tr>
+                <td>why 2rism</td>
+                <td>ABout us</td>
+            </tr>
+            <tr>
+                <td>account</td>
+                <td>ABout us</td>
+                <td>ABout us</td>
+                <td>ABout us</td>
+            </tr>
+            <tr>
+                <td>ABout us</td>
+                <td>ABout us</td>
+                <td>ABout us</td>
+            </tr>
+        </table>
+        <div>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
+            <input type="text" placeholder="Your Email">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

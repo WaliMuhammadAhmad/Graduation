@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Upload New Book</title>
+</head>
+<center>
+
+    <body>
+        <fieldset style="width:500px">
+            <legend>
+                <h1>Upload New Book</h1>
+            </legend>
+            <form action="save.php" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" />
+                Name of the Book:<input type="text" name="name" /></br></br>
+                Cover of the Book:<input type="file" name="pic" /></br></br>
+                <input type="submit" name="submit" value="Submit" /></br>
+            </form>
+        </fieldset>
+    </body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="../images/s1.jpg" alt="Header image" style="width: 100%; height: 400px;">
+    </div>
+    <div class="menu">
+        <h2><a href="">Home</a></h2>
+        <hr>
+        <h2><a href="">About Us</a></h2>
+        <hr>
+        <h2><a href="">Contract Us</a></h2>
+        <hr>
+        <h1>Selected Mobile</h1>
+        <img src="../images/b1.jpg" alt="">
+        <img src="../images/b2.jpg" alt="">
+    </div>
+    <div class="body">
+        <h1>Fill this Form:</h1>
+        <form class="form">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" placeholder="Enter Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">Father Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" id="fname" placeholder="Enter Father Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone Number</label>
+
+                    </td>
+                    <td>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Enter Email">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="Enter Password">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="City">City</label>
+
+                    </td>
+                    <td>
+                        <select name="City">
+                            <option disabled>Select Your City</option>
+                            <option>Lahore</option>
+                            <option>Islamabad</option>
+                            <option>Multan</option>
+                            <option>Karachi</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="gender">Gender</lable>
+
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="Male">
+                        <label for="html">Male</label>
+                        <input type="radio" name="gender" id="female" value="Female">
+                        <label for="css">Female</label><br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">D.O.B</label>
+
+                    </td>
+                    <td>
+                        <input type="date" name="dob" id="dob" placeholder="Enter D.O.B">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="summary">Summary</label>
+
+                    </td>
+                    <td>
+                        <textarea name="summary" id="summary"></textarea>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Register" id="register" onclick="validateForm(event)">
+                        <input type="reset" value="Reset" id="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Copyrights of University of Engineering & Technology,Lahore,KSK</p>
+        <div class="footer_img">
+            <img src="../images/fb_icon.png" alt="">
+            <img src="../images/g+.png" alt="">
+            <img src="../images/twiiter-icon.png" alt="">
+            <img src="../images/youtube-logo.png" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

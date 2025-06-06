@@ -1,0 +1,36 @@
+.simpleinput{
+background: transparent;outline: none;
+border-top: none;border-left: none;border-right: none;
+border-bottom:2px solid blue;
+border-radius:0px;
+}
+.simpleinput:focus{
+background: transparent;outline: none;
+border-top: none;border-left: none;border-right: none;
+border-bottom:2px solid blue;
+border-radius:0px;
+}
+.simpleinput:active{
+background: transparent;outline: none;
+border-top: none;border-left: none;border-right: none;
+border-bottom:2px solid blue;
+border-radius:0px;
+}
+.newinput{
+background: transparent;outline: none;
+border-top: none;border-left: none;border-right: none;
+border-bottom:2px solid red;
+border-radius:0px;
+}
+.newinput:focus{
+background: transparent;outline: none;
+border-top: none;border-left: none;border-right: none;
+border-bottom:2px solid red;
+border-radius:0px;
+}
+.newinput:active{
+background: transparent;outline: none;
+border-top: none;border-left: none;border-right: none;
+border-bottom:2px solid red;
+border-radius:0px;
+}
